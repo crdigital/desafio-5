@@ -1,6 +1,6 @@
-const primeiroNome:string = "Clayton";
-const diaDoMes:number = 15;
-const hojeFezSol:boolean = true;
+const primeiroNome :string = "Clayton";
+const diaDoMes :number = 15;
+const hojeFezSol :boolean = true;
 
 type Cachorrro = {
     nome: string;
