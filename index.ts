@@ -2,22 +2,21 @@ const primeiroNome :string = "Clayton";
 const diaDoMes :number = 15;
 const hojeFezSol :boolean = true;
 
-type Cachorrro = {
+type Cachorro = {
     nome: string;
-    idade: number;
+    idade: Date;
     raça: string;
     grandePorte: boolean;
-    donos: string;
+    donos: string[];
   }
   
   interface Animais {
     tipo: string;
     bipede: boolean;
     asas: boolean;
-    região: string;
+    região: StaticRange;
   }
 
-  type Gato = {
-    caracteristica: string;
-    cor?: string;
-  }
+  const dog: Partial<Cachorro> = {}
+
+//   const dog: Omit<Cachorro, "grandePorte"> = {}
